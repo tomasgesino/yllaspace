@@ -1,9 +1,19 @@
-body{
+.index-body{
   background-color: black !important;
   background-image: url(space.jpg), url(astro.jpg);
   background-repeat: no-repeat, no-repeat;
   background-attachment: scroll, fixed;
 }
+
+.research-body{
+  background-color: black !important;
+  background-image: url(space.jpg), url(astro.jpg);
+  background-color: rgba(200,100,0,.5); /* Tint color */
+  background-blend-mode: multiply;
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: scroll, fixed;
+}
+
 .logo-image{
   height: 40%;
   width: 40%;
